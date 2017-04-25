@@ -1,0 +1,2096 @@
+/*
+ Theme Name:     dt-the7 Child
+ Theme URI:      http://the7.dream-demo.com/demo/
+ Description:    dt-the7 Child Theme
+ Author:         ?
+ Author URI:     ?
+ Template:       dt-the7
+ Version:        1.0.0
+*/
+ 
+
+
+    
+@import url("../dt-the7/style.css");
+@import url("../dt-the7/css/main.min.css");
+
+
+/* =Theme customization starts here
+
+------------------------------------------------------- */
+
+.single.single-post .post.type-post {
+    padding: 20px;
+}
+
+.wf-cell.iso-item.shown a.comment-link, .wf-cell.iso-item.shown span.category-link, .wf-cell.iso-item.shown a.author.vcard {
+    display: none !important;
+}
+
+.wf-cell.iso-item.shown time.entry-date.updated {
+    color: silver !important;
+}
+
+.wf-cell.iso-item.shown .entry-meta {
+    text-align: center;
+}
+
+.wf-cell.iso-item.shown .blog-media.wf-td p::after {
+    display: none !important;
+}
+
+.archive .mini-widgets a.toprightbtn {
+    font-family: arial !important;
+}
+
+.archive .text-area.show-on-desktop.near-logo-first-switch.in-menu-second-switch.first.last p {
+    font-family: arial !important;
+}
+
+.wf-cell.iso-item.shown p {
+    font-family: arial !important;
+    text-align: left !important;
+}
+
+.archive .bg-on .blog-content {
+    padding: 15px 0px 10px;
+}
+
+
+
+.single .entry-tags a {
+    color: #000 !important;
+    background-color: #89cff0 !important;
+}
+
+.single .fancy-author-title.title-left, .single .fancy-posts-title.title-left, .single .fancy-comments-title.title-left, .single .fancy-comments-form.title-left, .single .fancy-projects-title.title-left {
+    margin-top: 20px;
+    margin-bottom: 34px;
+}
+
+.bold-icons .fancy-projects-title, .bold-icons .fancy-posts-title {
+    background-image: none !important;
+}
+
+.post-format-standard a{
+    color: #89cff0 !important;
+    text-decoration: underline !important;
+}
+
+.post-format-standard a:hover {
+    color: #89cff0 !important;
+    text-decoration: none !important;
+}
+
+.text-secondary {
+    color: silver !important;
+}
+
+.dt-fancy-separator.title-left .dt-fancy-title {
+    padding-left: 0;
+    color: white !important;
+}
+
+.separator-holder, .accent-border-color .bg-on .separator-holder {
+    border-color: white !important;
+}
+
+.single .entry-tags a:before {
+    border-right-color: #89cff0 !important;
+}
+
+.single .entry-tags a:hover {
+    color: #000 !important;
+    background-color: #62bce5 !important;
+}
+
+.single .entry-tags a:hover:before {
+    border-right-color: #62bce5 !important;
+}
+
+    .share-button.entry-share {
+    background-image: url("http://keithhaymes.com/wp-content/uploads/2016/08/Share-03-24.png") !important;
+}
+
+    #page .project-share-overlay .share-button.entry-share, #page .btn-project-link.btn-link {
+    padding: 0 0 0 30px !important;
+    color: #fff !important;
+    pointer-events: none;
+}
+
+    .post {
+        background: #3C5B69 url('http://keithhaymes.com/wp-content/uploads/2016/08/subtle_grunge2.png') !important;
+    }
+
+    .post p {
+        margin: 0px !important;
+        padding: 5px 15px !important;
+    }
+
+    .post p:first-of-type {
+        margin-top: 15px !important;
+    }
+
+    .wf-1-2, .wf-2-4, .wf-span-6 {
+    width: 33.3%;
+}
+
+.archive .wf-container-main {
+    text-align: center;
+}
+
+.alignnone {
+    float: none;
+    margin: 0 auto 0px auto;
+    padding-top: 20px;
+}
+
+
+
+    a.instagram {
+        margin-right: 15px !important;
+    }
+
+    div.soc-ico span {
+            color: #89cff0 !important;
+    text-align: center;
+    font-style: normal;
+    text-shadow: 1px 1px 1px #000 !important;
+    font-family: muli !important;
+    font-weight: normal !important;
+    font-size: 21px !important;
+    }
+
+
+
+    ol.breadcrumbs.text-small li:nth-child(2) {
+          display: none !important;      
+    }
+
+    a.share-button.entry-share.h5-size {
+        font-family: arial !important;
+    }
+
+.mfp-title-wrap {
+    display: none;
+}
+
+.page-title .breadcrumbs, .page-title .breadcrumbs a {
+    color: #283340 !important;
+    font-size: 18px;
+    font-weight: bold !important;
+}
+
+#comments {
+    display: none !important;
+}
+
+.wf-container-title {
+    width: 59%;
+    margin: 0 auto !important;
+}
+
+.article-top-bar {
+    display: none;
+}
+
+.page-title h1, .page-title h1 *, .page-title h1 a:hover, #page .page-title .entry-title {
+    color: #283340;
+    text-shadow: 0px -5px 35px rgba(255,255,255,0.3);
+    font: normal 35px "muli", Arial, Verdana, sans-serif !important;
+}
+
+body.single.single-post #main  {
+    padding-top: 0px !important;
+}
+
+
+
+.post p:last-of-type::after {
+    color: silver;
+    display: block;
+    
+}
+
+
+
+.popupbox {
+    color: #89cff0 !important;
+    text-shadow: 1px 1px 1px #000 !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: muli !important;
+}
+
+    .ifb-face.ifb-front {
+    color: rgb(137, 207, 240);
+    height: 219px;
+    background: url("http://keithhaymes.com/wp-content/uploads/2016/08/subtle_grunge2.png") rgb(60, 91, 105) !important;
+}
+
+.flip-box.ifb-jq-height.horizontal_flip_left.flip-ifb-jq-height p {
+    font-family: muli !important;
+    line-height: 20px !important;
+    text-align: left;
+}
+
+.ifb-face.ifb-back {
+    display: none !important;
+}
+
+.flip-box-wrap {
+    margin-bottom: 0px !important;
+}
+
+
+
+
+#custom-sidebar .textwidget {
+    background: #283340 url('http://keithhaymes.com/wp-content/uploads/2016/08/subtle_grunge2.png') !important;
+    box-shadow: 10px 10px 5px #888888;
+    padding: 15px !important;
+    margin-bottom: 20px;
+}
+
+#black-studio-tinymce-20.textwidget {
+    padding-bottom: 0px !important;
+}
+
+.ifb-flip-box {
+    cursor: none !important;
+    pointer-events: none !important;
+
+}
+
+.contact-form-material input[type="text"], .contact-form-material input[type="tel"], .contact-form-material input[type="url"], .contact-form-material input[type="email"], .contact-form-material input[type="number"], .contact-form-material input[type="date"], .contact-form-material input[type="range"], .contact-form-material input[type="password"], .contact-form-material select, .contact-form-material textarea {
+    color: white !important;
+}
+
+.wf-container-bottom {
+    padding-top: 10px;
+}
+
+#mc_embed_signup {
+    background: #283340 url('http://keithhaymes.com/wp-content/uploads/2016/08/subtle_grunge2.png') !important;
+}
+
+.mc-field-group input {
+    margin: 12px 0px;
+    width: 100%;
+    background: #3C5B69 url('http://keithhaymes.com/wp-content/uploads/2016/08/subtle_grunge2.png') !important;
+}
+
+.popupbox {
+    background: #283340 url('http://keithhaymes.com/wp-content/uploads/2016/08/subtle_grunge2.png') !important;
+    margin-bottom: 0px;
+}
+
+.masthead ul li {
+    margin: 0 30px !important;
+}
+
+hr {
+    margin: 10px auto;
+    width: 70% !important;
+    display: hidden!important;
+    border-color: grey;
+}
+
+h4.vc_custom_heading {
+    text-align: justify !important;
+    font-size: 14px !important;
+    font-family: muli !important;
+    color: black;
+    text-shadow: 1px 1px 1px #fff;
+}
+
+img.rotateit {
+        -ms-transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+
+h4.vc_custom_heading::before {
+    background-image: url('http://keithhaymes.com/wp-content/uploads/2016/07/iconmonstr-quote-5-24-1.png');
+}
+
+#black-studio-tinymce-18 img {
+    position: relative;
+    top: 3px;
+    margin-right: 10px;
+}
+
+#black-studio-tinymce-18 span {
+    color: white !important;
+    text-shadow: 1px 1px 1px #000 !important;
+    font-size: 19px;
+    font-weight: normal !important;
+
+}
+
+#black-studio-tinymce-18 .textwidget  span {
+    color: #89cff0;
+}
+
+
+
+#black-studio-tinymce-18 .textwidget li::before,
+#black-studio-tinymce-18 .textwidget li::after {
+    display: none;
+}
+
+#black-studio-tinymce-18 h3 {
+    color: #89cff0 !important;
+    font-size: 16px;
+    text-shadow: none !important;
+    margin-bottom: 0px !important;
+    margin: 0px !important;
+    text-align: left !important;
+}
+
+.textwidget h4 {
+    color: #89cff0 !important;
+    text-shadow: 1px 1px 1px #000 !important;
+    font-size: 16px !important;
+    margin-bottom: 0px !important;
+}
+
+
+
+#black-studio-tinymce-18 .textwidget {
+    margin-bottom: 15px;
+    color: white !important;
+}
+
+#black-studio-tinymce-20 p em span {
+    color: #89cff0 !important;
+    text-shadow: 1px 1px 1px #000 !important;
+    font-size: 19px;
+    font-weight: normal !important;
+    margin-bottom: 15px !important;
+}
+
+#black-studio-tinymce-20 .textwidget  strong {
+    color: #89cff0;
+}
+
+
+
+#black-studio-tinymce-20 .textwidget li::before,
+#black-studio-tinymce-20 .textwidget li::after {
+    display: none;
+}
+
+#black-studio-tinymce-20 .textwidget li::before,
+#black-studio-tinymce-20 .textwidget li::after {
+    display: none;
+}
+
+#black-studio-tinymce-20 .textwidget p {
+    margin-bottom: 5px;
+}
+
+
+.vc_column-inner.vc_custom_1469744308298 {
+    padding: 30px 0px !important;
+    text-align: justify;
+}
+
+
+
+
+
+img.alignnone.size-full.wp-image-442 {
+    margin-bottom: 5px;
+}
+
+span.menu-item-text  {
+    font: normal 18px / 22px muli !important;
+    color: #0c0c0c;
+    text-transform: uppercase;
+    font-family: muli !important;
+}
+
+/* Side-bar Tag edits */
+#custom-sidebar .tagcloud a {
+    font-size: 12px !important;
+    border-bottom: 1px solid #89cff0 !important;
+    display: inline-block;
+    margin: 2px;
+    padding: 1px 3px;
+    color: #fcfcfc !important;
+    text-shadow: 1px 1px 1px #000 !important;
+}
+
+#custom-sidebar .tagcloud a:hover {
+    border-bottom: 0px solid orange !important;
+    color: #89cff0 !important;
+}
+
+#tag_cloud-4 {
+    background: #283340 url('http://keithhaymes.com/wp-content/uploads/2016/08/subtle_grunge2.png') !important;
+    box-shadow: 10px 10px 5px #888888;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+#tag_cloud-4 h2 {
+    color: #89cff0 !important;
+    text-shadow: 1px 1px 1px #000 !important;
+    text-align: center;
+    font-size: 19px;
+}
+
+
+
+.edit-link, a.edit-link {
+    background-color: #283340;
+    color: white !important;
+    font-weight: normal;
+    text-shadow: 1px 1px 1px #000 !important;
+}
+
+
+
+.small-fancy-datas .fancy-date .entry-month {
+    font-size: 15px;
+    font-family: muli !important;
+    color: #89cff0 !important;
+    text-shadow: 1px 1px 1px #000 !important;
+    opacity: 1.0 !important;
+    font-weight: normal !important;
+}
+
+span.entry-date.updated {
+    font-size: 15px;
+    font-family: muli !important;
+    color: #89cff0 !important;
+    text-shadow: 1px 1px 1px #000 !important;
+    font-weight: normal !important;
+}
+
+.vc_custom_heading {
+    margin-bottom: 0px;
+}
+
+
+.fancy-date a {
+    background: #3C5B69 url('http://keithhaymes.com/wp-content/uploads/2016/08/subtle_grunge2.png') !important;
+}
+
+
+.wf-container-bottom {
+    border-top: 2px solid grey !important;
+}
+
+.sidebar.bg-under-widget .widget, .bg-under-widget .sidebar-content .widget, .solid-bg.sidebar-content .widget {
+    padding: 19px 25px 15px;
+}
+
+.details {
+    font-family: muli;
+}
+
+.details a:hover {
+    text-decoration: none !important;
+}
+
+/* http://flaticons.net/customize.php?dir=Shopping&icon=Scale.png */
+
+#black-studio-tinymce-13 div.textwidget,
+#black-studio-tinymce-16 div.textwidget,
+#black-studio-tinymce-17 div.textwidget,
+#black-studio-tinymce-15 div.textwidget,
+#black-studio-tinymce-14 div.textwidget {
+    padding: 20px 10px 10px 10px !important;
+}
+
+#black-studio-tinymce-9 strong {
+    color: #89cff0;
+}
+
+h3.entry-title {
+    font-weight: normal !important;
+}
+
+blockquote {
+    border: 0px solid grey !important;
+}
+
+.vc_row.wpb_row.vc_row-fluid.dt-default {
+    text-align: center;
+}
+
+.blog-content.wf-td {
+    word-wrap: break-word;
+}
+
+#main {
+    padding: 50px 0 50px 0 !important;
+}
+
+
+
+.wf-td.bottom-text-block p {
+    color: #89cff0;
+}
+
+.page-info {
+    padding: 0px;
+    margin-bottom: 50px;
+
+}
+
+#branding-bottom img {
+    height: 80px;
+    width: 150px;
+}
+
+
+
+.vc_general.vc_cta3.vc_cta3-style-classic, .vc_general.vc_cta3.vc_cta3-style-custom {
+    border-color: transparent; 
+    background-color: #f7f7f7;
+    text-shadow:1px 1px 1px #000 !important;
+}
+
+.page-info h2 {
+    letter-spacing: 0.05em;
+    text-shadow:1px 1px 1px #000 !important;
+    background: #3C5B69 url('http://keithhaymes.com/wp-content/uploads/2016/08/subtle_grunge2.png') !important;
+    width: 100%;
+}
+
+.page-info .soc-ico {
+    background: #3C5B69 url('http://keithhaymes.com/wp-content/uploads/2016/08/subtle_grunge2.png') !important;
+    width: 100%;
+    padding: 14px 0px; 
+}
+
+.bg-under-widget .sidebar-content .widget, .solid-bg.sidebar-content .widget {
+    background: #3C5B69 url('http://keithhaymes.com/wp-content/uploads/2016/08/subtle_grunge2.png') !important;
+}
+
+.layout-list .post.bg-on { 
+    background: #3C5B69 url('http://keithhaymes.com/wp-content/uploads/2016/08/subtle_grunge2.png') !important;
+}
+
+.post p {
+    background: #3C5B69 url('http://keithhaymes.com/wp-content/uploads/2016/08/subtle_grunge2.png') !important;
+    padding: 20px;
+    color: #f2f2f2;
+    font-family: muli !important;
+    font-size: 14px !important;
+}
+
+
+
+
+.wpb_column.vc_column_container.vc_col-sm-8 {
+    padding-top: 5%;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+
+.wpb_button, .wpb_content_element, ul.wpb_thumbnails-fluid>li {
+    margin-bottom: 0px;
+}
+
+.soc-ico a {
+    color: white !important;
+    background-color: #89cff0;
+    float: right !important;
+}
+
+.soc-ico a {
+    color: white !important;
+    margin: 0px 3px;
+}
+
+
+
+
+
+#main .soc-ico a:after, #footer .soc-ico a:after {
+    background-color: #F4B350 !important;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+        width: 24px !important;
+    height: 24px !important;
+}
+
+.content .soc-ico a .icon {
+    fill: white !important;
+}
+
+.main-nav.underline-decoration.l-to-r-line.level-arrows-on {
+    margin-bottom: 0px !important;
+}
+
+h5 {
+    font-family: muli !important;
+    letter-spacing: 0.2em;
+}
+
+.wpb_text_column.wpb_content_element {
+    font-family: muli !important;
+    font-size: 15px !important;
+} 
+/* make the last quote img go under and move it upwards */
+
+
+div.mini-widgets {
+    text-align: center !important;
+    margin: 0px 30px;
+}
+
+
+#footer div.wf-wrap {
+    width: 80% !important;
+}
+
+.post.project-odd p, .post.project-even p {
+    padding: 0px;
+}
+
+.page-title.title-left {
+    text-align: left;
+}
+
+.main-nav.underline-decoration.l-to-r-line.level-arrows-on {
+    margin-bottom: 0px !important;
+}
+
+
+
+.menu-item a {
+    pointer-events: none;
+}
+
+.main-nav > li > a .menu-text {
+    font-family: muli !important;
+    letter-spacing: 0.10em;
+    font: normal 16px / 18px muli !important;
+    color: #89cff0 !important;
+    text-shadow:1px 1px 1px #000 !important;
+    margin-left: 0px !important;
+}
+
+li.menu-item.menu-item-type-custom.menu-item-object-custom {
+    margin-left: 0px !important;
+}
+
+
+.header-bar {
+    height: 130px !important;
+}
+
+.vc_general.vc_cta3.vc_cta3-style-classic, .vc_general.vc_cta3.vc_cta3-style-custom {
+    border-color: 0px solid grey !important;
+    background-color: transparent;
+}
+
+.vc_cta3-container, .vc_general.vc_cta3.vc_cta3-style-classic.vc_cta3-shape-rounded.vc_cta3-align-center.vc_cta3-color-classic.vc_cta3-icon-size-md {
+    border: 0px solid grey !important;
+}
+
+#footer .textwidget {
+    text-align: center !important;
+}
+
+
+/* */
+#footer .textwidget img {
+    border: 0px solid #f2f2f2 !important;
+    margin: 0px 10px;
+    box-shadow: 10px 10px 5px black;
+
+}
+
+#footer .textwidget img:hover {
+    border: 0px solid #F4B350 !important;
+}
+
+.dizplayinline {
+    display: inline;
+}
+
+#footer div.widget-title {
+    text-align: center;
+    font: normal 19px "muli" !important;
+    letter-spacing: 0.6px;
+    color: #89cff0 !important;
+    margin-bottom: 20px;
+    text-shadow: 1px 1px 1px #000 !important;
+}
+
+.alignnone.size-medium.wp-image-199,
+.alignnone.size-medium.wp-image-107,
+.alignnone.size-medium.wp-image-200,
+.alignnone.size-medium.wp-image-26 {
+    height: 160px;
+    width: 175px;
+    cursor: pointer;
+}
+
+.st-accordion .text-primary span {
+    font-size: 16px;
+}
+
+
+.vc_single_image-wrapper.vc_box_rounded.vc_box_border_grey img {
+    height: 170px;
+    width: 170px;
+    border-radius: 0px;
+}
+
+
+
+.widget.widget_rss li {
+    padding: 5px;
+}
+
+.widget.widget_rss a {
+    color: #89cff0;
+    text-decoration: none;
+    display: block;
+    font-family: muli !important;
+    font-size: 14px !important;
+    text-shadow: 1px 1px 1px #000 !important;
+}
+
+a.details.more-link {
+    color: #89cff0 !important;
+    font-family: muli !important;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    text-shadow: 1px 1px 1px #000 !important;
+}
+
+.sidebar-content .tp_recent_tweets li a, .stripe .sidebar-content.solid-bg .tp_recent_tweets li a {
+    color: #89cff0 !important;
+    font-family: muli !important;
+    font-size: 14px !important;
+    text-shadow: 1px 1px 1px #000 !important;
+}
+
+div.entry-meta a.comment-link {
+    color: #89cff0 !important;
+    font-family: muli !important;
+    font-size: 14px;
+    text-shadow: 1px 1px 1px #000 !important;
+    font-weight: normal !important;
+}
+
+span.rss-date {
+    color: white !important;
+}
+
+
+
+.widget.widget_rss a:hover {
+    text-decoration: none !important;
+}
+
+
+.rss-widget-icon {
+    top: 1px;
+    position: relative;
+}
+
+.btn-shortcode.dt-btn-m.dt-btn.default-btn-color.default-btn-hover-color.default-btn-bg-color.default-btn-bg-hover-color.fadeIn.animate-element.animation-builder.ripple.animation-triggered.start-animation {
+    background-color: #89cff0;
+    border: 1px solid black;
+    margin-bottom: 15px !important;
+    border-radius: 4px;
+}
+
+.btn-shortcode.dt-btn-m.dt-btn.default-btn-color.default-btn-hover-color.default-btn-bg-color.default-btn-bg-hover-color.fadeIn.animate-element.animation-builder.ripple.animation-triggered.start-animation:hover {
+    background-color: #89cff0 !important;
+}
+
+.btn-3d #dt-btn-1 {
+    border-bottom-color: #66aac9;
+    border-radius: 5px;
+    box-shadow: none;
+    background-color: #89cff0;
+    color: #333 !important;
+    font-family: cursive;
+    border: 2px solid black;
+}
+
+.btn-3d #dt-btn-1:hover {
+    background-color: #F4B350 !important;
+}
+
+.vc_general.vc_cta3 {
+    border: 1px solid transparent;
+    font-size: 1em;
+    padding: 0px; 
+    word-wrap: break-word;
+}
+
+
+.masthead {
+    box-shadow: 10px 10px 5px #888888 !important;
+}
+
+
+.footer .skill-name, .footer .skill-name *, .footer .custom-nav > li > a span, .footer .custom-nav > li > ul a span, .footer .st-accordion li a, .footer .st-accordion > ul li > a * {
+    color: #89cff0 !important;
+}
+
+.masthead:not(.side-header).dividers .main-nav > li:before, .masthead:not(.side-header).dividers.surround .main-nav > li:last-child:after {
+    border-right: solid 0px yellow;
+}
+
+.post h3 a{
+    color: #89cff0 !important;
+    text-shadow: 1px 1px 1px #000 !important;
+    font-family: arial !important;
+    font-size: 22px;
+    text-decoration: underline;
+}
+
+.post h3 a:hover {
+    text-decoration: none;
+}
+
+ #sidebar a {
+    text-decoration: underline !important;
+}
+
+ #sidebar a:hover {
+    text-decoration: none !important;
+}
+
+
+cite {
+    color: silver;
+}
+
+
+.sidebar-content .tp_recent_tweets li span, .stripe .sidebar-content.solid-bg .tp_recent_tweets li span {
+    color: #f2f2f2 !important;
+    font-family: muli !important;
+    font-size: 14px;
+
+}
+
+.sidebar-content .tp_recent_tweets li a, .stripe .sidebar-content.solid-bg .tp_recent_tweets li a {
+    text-decoration: underline !important;
+}
+
+.sidebar-content .tp_recent_tweets li a:hover, .stripe .sidebar-content.solid-bg .tp_recent_tweets li a:hover {
+    text-decoration: none !important;
+}
+
+.st-content p {
+    color: #f2f2f2;
+}
+
+
+
+
+div#custom-sidebar ul {
+    line-height: 20px;
+}
+
+div#custom-sidebar li.widget {
+    width: 100px;
+    margin:0 0 15px 0px;
+    float:left;
+    background: #fcfcfc url('http://keithhaymes.com/wp-content/uploads/2016/08/subtle_grunge2.png') ;
+    box-shadow: 10px 10px 5px #888888;
+}
+
+#custom-sidebar .textwidget p {
+    color: #f2f2f2;
+}
+
+#custom-sidebar a {
+    text-decoration: none;
+}
+
+#custom-sidebar a:hover {
+    color: #F4B350;
+}
+
+#presscore-progress-bars-widget-3 h2 {
+    font-size: 20px;
+}
+
+
+
+div#custom-sidebar li.widget h2 {
+    margin-bottom: 15px;
+}
+
+div#custom-sidebar p {
+    color: black;
+}
+
+
+
+
+
+
+#custom-sidebar .textwidget h4 {
+    color: #89cff0;
+    text-shadow:1px 1px 1px #000 !important;
+}
+
+
+.sidebar-right .content, .sidebar-left .sidebar {
+    padding-right: 20px !important;
+}
+
+
+#custom-sidebar .soc-ico {
+    text-align: center;
+}
+
+
+
+.list-divider li {
+    border-color: transparent !important;
+}
+
+
+#sidebar {
+    margin-right: 0;
+    margin-left: 0;
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+
+
+h2.vc_custom_heading {
+    color: #89cff0 !important;
+    text-align: center;
+    font-style: normal;
+    text-shadow: 1px 1px 1px #000 !important;
+    font-family: muli !important;
+    font-weight: normal !important;
+    font-size: 21px !important;
+}
+
+.widget-title {
+    font-family: muli !important;
+    font-size: 20px !important;
+    color: #89cff0 !important;
+    text-shadow: none !important;
+    font-weight: normal !important;
+    text-shadow: 1px 1px 1px #000 !important;
+}
+
+
+.text-big.shortcode-blockquote {
+    font-weight: 400;
+
+}
+
+
+.shortcode-blockquote {
+    position: relative;
+    overflow: hidden;
+    padding: 0px 0px;
+    font-style: normal;
+    margin-bottom: 0px;
+    font-family: arial;
+}
+
+div.widget-title a.rsswidget {
+    color: #89cff0 !important;
+    display: inline !important;
+    text-shadow: 1px 1px 1px #000 !important;
+    padding-left: 8px;
+    font-family: muli !important;  
+    font-size: 19px !important;
+}
+
+.top-bar {
+    display: none;
+}
+
+#wp_subscribe-3 {
+    margin-bottom: 15px;
+}
+
+#wp-subscribe {
+    padding: 15px;
+    background: #283340 url('http://keithhaymes.com/wp-content/uploads/2016/08/subtle_grunge2.png') !important;
+}
+
+div#custom-sidebar p {
+    color: white;
+}
+
+div.mc_embed_signup {
+    border: 1px solid red !important;
+}
+
+#wp-subscribe input.email-field, #wp-subscribe input.name-field {
+    color: #FFFFFF;
+    background: #3C5B69 url('http://keithhaymes.com/wp-content/uploads/2016/08/subtle_grunge2.png') !important;
+}
+
+.text-area.show-on-desktop.near-logo-first-switch.in-menu-second-switch.first.last p {
+    font-family: muli !important;
+    font: normal 14px / 16px muli !important;
+    color: #89cff0 !important;
+    text-shadow: 1px 1px 1px #000 !important;
+}
+
+a.toprightbtn {
+    text-decoration: none !important;
+    background: #FFFFFF;
+    color: blue;
+    text-transform: none !important;
+    padding: 4px 7px;
+    margin-bottom: 10px !important;
+    font-size: 14px;
+    font-family: muli !important;
+    box-shadow: 0px 1px 1px 1px rgba(0, 0, 0, 0.05);
+    cursor: pointer;
+  background-color: hsl(195, 60%, 35%) !important;
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#2d95b7", endColorstr="#23748e");
+  background-image: -khtml-gradient(linear, left top, left bottom, from(#2d95b7), to(#23748e));
+  background-image: -moz-linear-gradient(top, #2d95b7, #23748e);
+  background-image: -ms-linear-gradient(top, #2d95b7, #23748e);
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #2d95b7), color-stop(100%, #23748e));
+  background-image: -webkit-linear-gradient(top, #2d95b7, #23748e);
+  background-image: -o-linear-gradient(top, #2d95b7, #23748e);
+  background-image: linear-gradient(#2d95b7, #23748e);
+  border-color: #23748e #23748e hsl(195, 60%, 32.5%);
+  color: #fff !important;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.16);
+  -webkit-font-smoothing: antialiased;
+    position: relative;
+    top: 5px;
+}
+
+a.toprightbtn:hover {
+    background: #FFFFFF;
+    text-transform: none !important;
+    padding: 4px 7px;
+    margin-bottom: 5px !important;
+    font-size: 14px;
+    box-shadow: 0px 1px 1px 1px rgba(0, 0, 0, 0.05);
+    cursor: pointer;
+  background-color: hsl(195, 60%, 44%) !important;
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#43acd0", endColorstr="#2c91b3");
+  background-image: -khtml-gradient(linear, left top, left bottom, from(#43acd0), to(#2c91b3));
+  background-image: -moz-linear-gradient(top, #43acd0, #2c91b3);
+  background-image: -ms-linear-gradient(top, #43acd0, #2c91b3);
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #43acd0), color-stop(100%, #2c91b3));
+  background-image: -webkit-linear-gradient(top, #43acd0, #2c91b3);
+  background-image: -o-linear-gradient(top, #43acd0, #2c91b3);
+  background-image: linear-gradient(#43acd0, #2c91b3);
+  border-color: #2c91b3 #2c91b3 hsl(195, 60%, 41.5%);
+  color: #fff !important;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.16);
+  -webkit-font-smoothing: antialiased;
+    position: relative;
+    top: 5px;
+}
+
+#mc-embedded-subscribe {
+    text-decoration: none !important;
+    background: #FFFFFF;
+    width: 100%;
+    text-transform: none !important;
+    padding: 0px;
+    font-family: muli !important;
+    font-weight: normal !important;
+    margin: 0px !important;
+    font-size: 14px;
+    cursor: pointer;
+  background-color: hsl(195, 60%, 35%) !important;
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#2d95b7", endColorstr="#23748e");
+  background-image: -khtml-gradient(linear, left top, left bottom, from(#2d95b7), to(#23748e));
+  background-image: -moz-linear-gradient(top, #2d95b7, #23748e);
+  background-image: -ms-linear-gradient(top, #2d95b7, #23748e);
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #2d95b7), color-stop(100%, #23748e));
+  background-image: -webkit-linear-gradient(top, #2d95b7, #23748e);
+  background-image: -o-linear-gradient(top, #2d95b7, #23748e);
+  background-image: linear-gradient(#2d95b7, #23748e);
+  border-color: #23748e #23748e hsl(195, 60%, 32.5%);
+  color: #fff !important;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.16);
+  -webkit-font-smoothing: antialiased;
+  margin-bottom: 13px !important;
+  border-bottom: none !important;
+}
+
+body.single.single-post #mc-embedded-subscribe {
+    font-family: inherit !important;
+}
+
+body.single.single-post a.toprightbtn {
+    font-family: inherit !important;
+}
+
+#mc-embedded-subscribe:hover {
+  background-color: hsl(195, 60%, 44%) !important;
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#43acd0", endColorstr="#2c91b3");
+  background-image: -khtml-gradient(linear, left top, left bottom, from(#43acd0), to(#2c91b3));
+  background-image: -moz-linear-gradient(top, #43acd0, #2c91b3);
+  background-image: -ms-linear-gradient(top, #43acd0, #2c91b3);
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #43acd0), color-stop(100%, #2c91b3));
+  background-image: -webkit-linear-gradient(top, #43acd0, #2c91b3);
+  background-image: -o-linear-gradient(top, #43acd0, #2c91b3);
+  background-image: linear-gradient(#43acd0, #2c91b3);
+  border-color: #2c91b3 #2c91b3 hsl(195, 60%, 41.5%);
+  color: #fff !important;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.16);
+  -webkit-font-smoothing: antialiased;
+  margin: 0 0 13px 0 !important;
+  border-bottom: none !important
+}
+
+#wp-subscribe input.submit {
+    background: #FFFFFF;
+    color: blue;
+    text-transform: none !important;
+    padding: 0px 0px;
+    margin-top: 20px;
+    font-size: 18px;
+    box-shadow: 0px 1px 1px 1px rgba(0, 0, 0, 0.05);
+    cursor: pointer;
+  background-color: hsl(195, 60%, 35%) !important;
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#2d95b7", endColorstr="#23748e");
+  background-image: -khtml-gradient(linear, left top, left bottom, from(#2d95b7), to(#23748e));
+  background-image: -moz-linear-gradient(top, #2d95b7, #23748e);
+  background-image: -ms-linear-gradient(top, #2d95b7, #23748e);
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #2d95b7), color-stop(100%, #23748e));
+  background-image: -webkit-linear-gradient(top, #2d95b7, #23748e);
+  background-image: -o-linear-gradient(top, #2d95b7, #23748e);
+  background-image: linear-gradient(#2d95b7, #23748e);
+  border-color: #23748e #23748e hsl(195, 60%, 32.5%);
+  color: #fff !important;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.16);
+  -webkit-font-smoothing: antialiased;
+}
+
+
+#wp-subscribe input.email-field, #wp-subscribe input.name-field {
+    color: #FFFFFF !important;
+}
+
+
+.modalDialog {
+    position: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0,0,0,0.8);
+    z-index: 99999;
+    opacity:0;
+    -webkit-transition: opacity 400ms ease-in;
+    -moz-transition: opacity 400ms ease-in;
+    transition: opacity 400ms ease-in;
+    pointer-events: none;
+}
+
+
+
+.modalDialog:target {
+    opacity:1;
+    pointer-events: auto;
+}
+
+.modalDialog > div {
+    width: 400px;
+    position: relative;
+    margin: 10% auto;
+    padding: 20px;
+    border-radius: 10px;
+    background: #fff;
+    background: -moz-linear-gradient(#fff, #999);
+    background: -webkit-linear-gradient(#fff, #999);
+    background: -o-linear-gradient(#fff, #999);
+    background: #283340 url('http://keithhaymes.com/wp-content/uploads/2016/08/subtle_grunge2.png') !important;
+}
+
+.close {
+    background: #606061;
+    color: #FFFFFF;
+    line-height: 25px;
+    position: absolute;
+    right: -12px;
+    text-align: center;
+    top: -10px;
+    width: 24px;
+    text-decoration: none;
+    font-weight: normal;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    border-radius: 12px;
+    -moz-box-shadow: 1px 1px 3px #000;
+    -webkit-box-shadow: 1px 1px 3px #000;
+    box-shadow: 1px 1px 3px #000;
+}
+
+.close:hover { background: #23748e;
+-webkit-transition: opacity 400ms ease-in;
+-moz-transition: opacity 400ms ease-in;
+transition: opacity 400ms ease-in; 
+}
+
+
+
+
+body.single.single-post,
+body.single.single-post h1, 
+body.single.single-post h2, 
+body.single.single-post h3, 
+body.single.single-post h4, 
+body.single.single-post h5, 
+body.single.single-post h6,
+body.single.single-post .post h3 a, 
+body.single.single-post .widget.widget_rss a,
+body.single.single-post .span.menu-item-text,
+body.single.single-post .small-fancy-datas .fancy-date .entry-month, 
+body.single.single-post span.entry-date.updated, 
+body.single.single-post .post p, 
+body.single.single-post h5,
+body.single.single-post .wpb_text_column.wpb_content_element,
+body.single.single-post div.entry-meta a.comment-link, 
+body.single.single-post h2.vc_custom_heading,
+body.single.single-post .text-area.show-on-desktop.near-logo-first-switch.in-menu-second-switch.first.last p {
+    font: normal 14px / 16px "muli", Arial, Verdana, sans-serif !important;
+}
+
+
+
+body.single.single-post .main-nav > li > a .menu-text {
+    font: normal 15px "muli", Arial, Verdana, sans-serif !important;
+}
+  
+body.single.single-post #black-studio-tinymce-20 h3 {
+    font: normal 25px "muli", Arial, Verdana, sans-serif !important;
+    margin-bottom: 0px !important;
+}
+
+#black-studio-tinymce-20 h3 {
+    margin-bottom: 0px !important;
+}
+
+body.single.single-post #black-studio-tinymce-18 h4 {
+    font: normal 16px "muli", Arial, Verdana, sans-serif !important;
+}
+
+body.single.single-post #black-studio-tinymce-9 h4 {
+    font: normal 18px "muli", Arial, Verdana, sans-serif !important;
+}
+
+body.single.single-post #tag_cloud-4 h2 {
+    font: normal 18px "muli", Arial, Verdana, sans-serif !important;
+}
+
+
+body.single.single-post .widget-title, 
+body.single.single-post #footer div.widget-title {
+    font: normal 19px "muli", Arial, Verdana, sans-serif !important;
+}
+
+body.single.single-post div.widget-title a.rsswidget {
+    font: normal 18px "muli", Arial, Verdana, sans-serif !important;
+}
+
+body.single.single-post .sidebar-content .tp_recent_tweets li a, body.single.single-post .stripe .sidebar-content.solid-bg .tp_recent_tweets li a,
+body.single.single-post .sidebar-content .tp_recent_tweets li span, body.single.single-post .stripe .sidebar-content.solid-bg .tp_recent_tweets li span {
+    font: normal 14px "muli", Arial, Verdana, sans-serif !important;
+}
+
+.masthead.inline-header.center.widgets.full-height.full-width.dividers.surround.line-decoration.dt-parent-menu-clickable.show-device-logo.show-mobile-logo {
+    padding: 0 20px !important;
+}
+
+
+.branding {
+    width: 20% !important;
+}
+
+.main-nav.underline-decoration.l-to-r-line.level-arrows-on {
+    width: 60% !important;
+    padding: 0 0px !important;
+}
+
+.mini-widgets {
+    width: 100%;
+}
+
+div.mini-widgets {
+    text-align: center !important;
+    margin: 0px 0px !important;
+}
+
+.text-area.show-on-desktop.near-logo-first-switch.in-menu-second-switch.last {
+    margin: 0 auto !important;
+}
+
+.text-big, .dt-accordion-text-big .wpb_accordion_header > a {
+    font-size: 14px;
+    line-height: 20px !important;
+}
+
+/******************************************************************************
+********************************************************************************
+********************************************************************************
+********************************************************************************
+********************************************************************************
+********************************************************************************
+********************************************************************************
+*/
+
+
+
+@media screen and (max-width: 1525px) {
+
+
+div.soc-ico span {
+    font-size: 18px !important;
+}
+
+
+}
+
+
+
+
+
+
+
+
+@media screen and (min-width: 1025px) {
+
+
+
+        a.alignnone.rollover.rollover-zoom.dt-single-mfp-popup.dt-mfp-item.mfp-image.mfp-ready.this-ready.material-click-effect.ripplelink {
+    text-align: center !important;
+
+}
+
+
+a.alignnone.rollover.rollover-zoom.dt-single-mfp-popup.dt-mfp-item.mfp-image.mfp-ready.this-ready.material-click-effect.ripplelink .lazy-load.preload-me.is-loaded {
+    width: 60% !important;
+}
+
+
+.archive .bg-on .blog-content h3.entry-title {
+    padding: 0px 8px !important;
+}
+
+
+}
+
+
+
+
+
+
+@media screen and (min-width: 1024px) {
+
+
+
+.vc_column-inner.vc_custom_1469744308298 {
+    padding: 50px 0px !important;
+    text-align: justify;
+}
+
+.branding {
+    padding: 0px !important;
+    width: 22%;
+
+}
+
+.wpb_column.vc_column_container.vc_col-sm-4 {
+    position: absolute;
+    bottom: 0px;
+    left: 30px;
+}
+
+.wpb_column.vc_column_container.vc_col-sm-7 {
+    position: relative;
+    left: 26%;
+}
+
+.branding > a, .branding > img {
+    padding: 0px !important;
+    margin: 0 auto;
+}
+
+.main-nav.underline-decoration.l-to-r-line.level-arrows-on {
+    width: 56%;
+}
+
+.mini-widgets {
+    width: 20%;
+}
+
+
+.text-area.show-on-desktop.near-logo-first-switch.in-menu-second-switch.last {
+    margin:  0 auto !important;
+}
+
+.text-area.show-on-desktop.near-logo-first-switch.in-menu-second-switch.last p {
+    color: #89cff0 !important;
+}
+
+a.submit {
+    color: #89cff0 !important;
+}
+
+.mini-login.show-on-desktop.near-logo-first-switch.in-menu-second-switch.first {
+    margin:  0 auto !important;
+}
+
+
+#custom-sidebar {
+    width: 20%;
+    display: inline-block;
+    float: left;
+}
+
+
+div#content.content {
+    width: 60%;
+    float: none;
+    display: inline-block;
+}
+
+
+aside#sidebar.sidebar.bg-under-widget {
+    width: 20%;
+    display: inline-block;
+    float: right;
+}
+ul.main-nav.underline-decoration.l-to-r-line.level-arrows-on {
+    display: none;
+}
+
+
+}
+
+/******************************************************************************
+********************************************************************************
+********************************************************************************
+********************************************************************************
+********************************************************************************
+********************************************************************************
+********************************************************************************
+*/
+
+
+/******************************************************************************
+********************************************************************************
+********************************************************************************
+********************************************************************************
+********************************************************************************
+********************************************************************************
+********************************************************************************
+*/
+
+@media screen and (max-width: 1365px) {
+
+
+
+
+div.soc-ico span {
+    font-size: 13px !important;
+    display: block;
+    margin-bottom: 10px;
+}
+
+ul.main-nav.underline-decoration.l-to-r-line.level-arrows-on {
+    display: none;
+}
+
+.main-nav > li > a .menu-text {
+    display: none !important;
+}
+
+.wpb_column.vc_column_container.vc_col-sm-1 {
+    display: none;
+}
+
+.wpb_column.vc_column_container.vc_col-sm-4 {
+    width: 40% !important;
+}
+
+.vc_col-sm-7 {
+    width: 55% !important;
+}
+
+.vc_single_image-wrapper.vc_box_border_grey img {
+    height: 214px;
+}
+
+
+
+.sidebar-right .content, .sidebar-left .content, .article-top-bar > .wf-wrap, .sidebar {
+    padding-right: 20px;
+    padding-left: 0px !important;
+}
+
+
+.vc_column-inner.vc_custom_1469744308298 {
+    text-align: justify;
+    padding-top: 0px;   
+}
+
+p.vc_column-inner.vc_custom_1469744308298  {
+    margin-bottom: 0px !important;
+}
+
+
+
+.branding > a, .branding > img {
+    margin: 0 auto !important;
+    padding: 0px !important;
+}
+
+#footer div.wf-wrap {
+    width: 100% !important;
+}
+
+#custom-sidebar {
+    width: 100%;
+    display: block;
+    float: right;
+}
+
+div#content.content {
+    width: 65%;
+    float: left;
+    display: inline-block;
+}
+
+aside#sidebar.sidebar.bg-under-widget {
+    width: 35%;
+    display: inline-block;
+    float: none;
+}
+    
+
+}
+
+/******************************************************************************
+********************************************************************************
+********************************************************************************
+********************************************************************************
+********************************************************************************
+********************************************************************************
+********************************************************************************
+*/
+
+
+
+/******************************************************************************
+********************************************************************************
+********************************************************************************
+********************************************************************************
+********************************************************************************
+********************************************************************************
+********************************************************************************
+*/
+
+@media screen and (min-width: 1366px) and (max-width: 1494px) {
+
+
+    .main-nav > li > a .menu-text {
+        font-size: 14px !important;
+    }
+
+
+    }
+
+
+
+@media screen and (min-width: 1024px) and (max-width: 1365px) {
+
+
+
+#custom-sidebar {
+    width: 27%;
+    display: inline-block;
+    float: left;
+}
+
+
+div#content.content {
+    width: 46%;
+    float: none;
+    display: inline-block;
+    padding: 0px 15px !important;
+}
+
+
+aside#sidebar.sidebar.bg-under-widget {
+    width: 27%;
+    display: inline-block;
+    float: right;
+}
+
+h2.vc_custom_heading {
+    font-size: 18px !important;
+}
+
+.wpb_column.vc_column_container.vc_col-sm-4 {
+    position: static;
+    width: 100% !important;
+}
+
+.vc_column-inner.vc_custom_1469744308298 {
+    padding: 15px 15px !important;
+    text-align: justify;
+}
+
+.wpb_single_image.vc_align_left {
+    text-align: center;
+}
+
+.wpb_column.vc_column_container.vc_col-sm-7 {
+    position: static;
+    width: 100% !important;
+}
+
+.vc_single_image-wrapper.vc_box_border_grey img {
+    height: 190px;
+    width: 200px;
+    margin-top: 10px;
+    border-bottom: 4px solid #283340;
+}
+
+.ifb-face.ifb-front  {
+    border-style: none !important;
+}
+
+.page-info .soc-ico {
+    background: #3C5B69 url('http://keithhaymes.com/wp-content/uploads/2016/08/subtle_grunge2.png') !important;
+    width: 100%;
+    padding: 0px 0px 10px 0;
+    position: relative;
+    top: -15px;
+}
+
+.page-info {
+    margin-bottom: 0px;
+}
+
+.blog-media.wf-td, .blog-content.wf-td {
+    width: 100% !important;
+}
+
+.blog-media.wf-td a {
+    margin-right: 0px !important;
+}
+
+
+
+
+.masthead.inline-header.center.widgets.full-height.full-width.dividers.surround.line-decoration.dt-parent-menu-clickable.show-device-logo.show-mobile-logo {
+    padding: 0 20px !important;
+}
+
+.branding {
+    width: 27% !important;
+}
+
+.main-nav.underline-decoration.l-to-r-line.level-arrows-on {
+    width: 60% !important;
+    padding: 0 0px !important;
+}
+
+.mini-widgets {
+    width: 27%;
+}
+
+div.mini-widgets {
+    text-align: center !important;
+    margin: 0px 0px !important;
+}
+
+
+
+
+}
+
+
+
+
+@media screen and (min-width: 1024px) and (max-width: 1365px) {
+
+.masthead.inline-header.center.widgets.full-height.full-width.dividers.surround.line-decoration.dt-parent-menu-clickable.show-device-logo.show-mobile-logo {
+    padding: 0 20px !important;
+}
+
+.branding {
+    width: 27% !important;
+}
+
+.main-nav.underline-decoration.l-to-r-line.level-arrows-on {
+    width: 60% !important;
+    padding: 0 0px !important;
+}
+
+.mini-widgets {
+    width: 27%;
+}
+
+div.mini-widgets {
+    text-align: center !important;
+    margin: 0px 0px !important;
+}
+
+
+}
+
+
+
+
+@media screen and (min-width: 568px) and (max-width: 1023px) {
+
+
+
+
+    div.soc-ico span {
+    font-size: 11px !important;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.blog-media.wf-td, .blog-content.wf-td {
+    width: 100% !important;
+}
+
+.archive div#content.content {
+    width: 65%;
+    float: none;
+    display: inline-block;
+}
+
+#black-studio-tinymce-18 img {
+    position: relative;
+    top: 5px;
+    margin-right: 10px !important;
+}
+
+.blog-media.wf-td a {
+    margin-right: 0px !important;
+}
+
+.branding {
+    width: 62% !important;
+}
+
+.mini-widgets {
+  padding: 0px !important;
+  width: 35%
+}
+
+h2.vc_custom_heading {
+    font-size: 17px !important;
+}
+
+.wpb_column.vc_column_container.vc_col-sm-4, .wpb_column.vc_column_container.vc_col-sm-7 {
+    position: static;
+    width: 100% !important;
+    padding: 0 15px;
+}
+
+.wpb_single_image.vc_align_left {
+    text-align: center;
+}
+
+.vc_single_image-wrapper.vc_box_border_grey img {
+    height: 190px;
+    width: 200px;
+    margin-top: 10px;
+    border-bottom: 4px solid #283340;
+}
+
+.ifb-face.ifb-front  {
+    border-style: none !important;
+}
+
+.page-info .soc-ico {
+    background: #3C5B69 url('http://keithhaymes.com/wp-content/uploads/2016/08/subtle_grunge2.png') !important;
+    width: 100%;
+    padding: 0px 0px 10px 0;
+    position: relative;
+    top: -15px;
+}
+
+body.single.single-post div#content.content, body.single.single-post aside#sidebar.sidebar.bg-under-widget {
+    width: 100% !important;
+}
+
+.page-info {
+    margin-bottom: 0px;
+}
+
+.vc_column-inner.vc_custom_1469744308298 {
+    padding: 15px 0 0px 0 !important;
+}
+
+
+}
+
+
+
+
+
+
+@media screen and (min-width: 568px) and (max-width: 767px) {
+
+    #footer .textwidget img {
+    margin: 0px 10px !important;
+}
+
+    .alignnone {
+    float: none;
+    margin: 0 auto 0px auto !important;
+}
+
+#black-studio-tinymce-18 img {
+    position: relative;
+    top: 5px;
+    margin-right: 10px !important;
+}
+
+body.single.single-post .wf-container-footer {
+    display: none;
+}
+
+body.single.single-post .wf-container-bottom {
+    border-top: 0px solid grey !important;
+}
+
+    h2.vc_custom_heading {
+        font-size: 12px !important;
+    }
+
+
+    div#content.content {
+    width: 55%;
+    float: left;
+    display: inline-block;
+}
+
+aside#sidebar.sidebar.bg-under-widget {
+    width: 45%;
+    display: inline-block;
+    float: none;
+}
+
+.project-share-overlay {
+    position: relative;
+    display: inline-block;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 100%;
+    text-align: center;
+}
+
+.branding {
+    width: 55% !important;
+}
+
+
+
+
+.mini-widgets {
+    width: 45% !important;
+}
+
+body.single.single-post #custom-sidebar, body.single.single-post #sidebar {
+    display: none !important;
+}
+
+}
+
+
+
+
+
+@media screen and (max-width: 567px) {
+
+    #black-studio-tinymce-18 img {
+    position: relative;
+    top: 5px;
+    margin-right: 10px !important;
+}
+
+#main .wf-wrap {
+    padding: 0px !important;
+}
+
+    .alignnone {
+    float: none;
+    margin: 0 auto 0px auto !important;
+}
+
+
+
+
+
+    body.single.single-post .wf-container-bottom {
+    border-top: 0px solid grey !important;
+}
+
+    body.single.single-post .wf-container-footer {
+        display: none;
+    }
+
+    .header-bar {
+        padding: 0 15px;
+    }
+
+   .branding {
+    width: 50% !important;
+   }
+
+
+   .mini-widgets {
+    width: 50% !important;
+   }
+
+   #custom-sidebar {
+    width: 100%;
+    display: inline-block;
+    float: left;
+}
+
+
+div#content.content {
+    width: 100%;
+    float: none;
+    display: inline-block;
+    padding: 0px 0px !important;
+}
+
+
+aside#sidebar.sidebar.bg-under-widget {
+    width: 100%;
+    display: inline-block;
+    float: right;
+}
+
+#main {
+    padding-top: 0px !important;
+}
+
+.masthead {
+    box-shadow: none !important;
+}
+
+
+#main .wf-wrap, .page-title .wf-wrap, .masthead:not(.side-header):not(.full-width):not(.side-header-v-stroke):not(.side-header-menu-icon), .side-header .mobile-header-bar, #page .masthead.full-width, #page .masthead.mixed-header:not(.side-header-v-stroke) {
+    padding: 0 0px !important;
+}
+
+
+.masthead:not(.side-header):not(.side-header-menu-icon) .top-bar, .masthead:not(.side-header):not(.side-header-menu-icon) .header-bar, .masthead:not(.side-header):not(.side-header-menu-icon) .mobile-header-bar {
+    max-width: calc(100% - 0px) !important;
+}
+
+
+
+
+.ifb-face.ifb-front {
+    border: none !important;
+}
+
+.vc_column-inner.vc_custom_1469744308298 {
+    padding: 0px 25px !important;
+    text-align: justify;
+}
+
+   h2.vc_custom_heading {
+        font-size: 14px !important;
+    }
+
+.wpb_column.vc_column_container.vc_col-sm-4, .wpb_column.vc_column_container.vc_col-sm-7 {
+    width: 100% !important;
+}
+
+.blog-media.wf-td, .blog-content.wf-td {
+    width: 100% !important;
+}
+
+.blog-media.wf-td a {
+    margin-right: 0px !important;
+}
+
+.wpb_single_image.vc_align_left {
+    text-align: center !important;
+}
+
+
+.vc_single_image-wrapper.vc_box_border_grey img {
+    height: 190px;
+    width: 200px;
+    margin-top: 10px;
+    border-bottom: 4px solid #283340;
+}
+
+.modalDialog > div {
+    width: 80% !important;
+}
+
+#custom-sidebar .textwidget, #tag_cloud-4 {
+    box-shadow: none !important;
+}
+
+.paginator {
+    position: relative;
+    margin: 0px 0 0 15px;
+    text-align: right;
+    z-index: 10;
+}
+
+.page-info {
+    padding: 0px;
+    margin-bottom: 20px;
+}
+
+#main {
+    padding: 0px 0 20px 0 !important;
+}
+
+
+
+.post-meta.wf-mobile-collapsed {
+    text-align: center !important;
+}
+
+body.single.single-post #custom-sidebar, body.single.single-post #sidebar {
+    display: none !important;
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
